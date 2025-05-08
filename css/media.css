@@ -1,0 +1,224 @@
+@media screen and (min-width: 470px) {
+  .sm-header {
+    font-size: 2rem;
+  }
+  .item-1 .text button,
+  .item-6 .text button {
+    padding: 0.5rem 2rem;
+  }
+  /* nav-tips */
+  .navbar-tips .text{ 
+  margin-bottom: 1.5rem;
+}
+  .nav-tabs .nav-link{
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .container .logo img {
+    max-width: 170px;
+  }
+  .sm-header {
+    font-size: 2rem;
+  }
+  .item-1 .text button,
+  .item-6 .text button {
+    padding: 0.5rem 2rem;
+  }
+  .item-1 .text button {
+    padding: 0.8rem 2.5rem;
+  }
+  /* header */
+  header .container .content .inner h1 {
+    max-width: 300px;
+  }
+  /* photos */
+  .photos .container .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+      grid-template-areas:
+    "item-1 item-1"
+    "item-2 item-3"
+    "item-4 item-5"
+    "item-6 item-6";
+    column-gap: 15px;
+  }
+  /* join */
+  .join h2{
+    max-width: 700px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .join p{
+    max-width: 400px;
+    line-height: 40px;
+  }
+  .images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    grid-template-areas: 
+    "item-1 item-2 item-3"
+    "item-1 item-4 item-5"
+    ;
+  }
+  .images figure img{
+    height: 100%;
+    object-fit: cover;
+  }
+  .item-1{
+    grid-area: item-1;
+  }
+  .item-2{
+    grid-area: item-2;
+  }
+  .item-3{
+    grid-area: item-3;
+  }
+  .item-4{
+    grid-area: item-4;
+  }
+  .item-5{
+    grid-area: item-5;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 1rem 0;
+  }
+  .navbar .mobile-nav .nav-slide {
+    padding: 0;
+    overflow: visible;
+  }
+
+  .navbar-expand-lg .offcanvas .offcanvas-body{
+    justify-content: center;
+  }
+  .navbar ul li {
+    margin: 0 1.25rem;
+  }
+  .navbar ul li a {
+    color: #000;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+  .navbar .left {
+    order: 1;
+  }
+  .navbar ul .coll-item{
+    padding: .5rem 0;
+  }
+  .navbar ul .coll-item > a {
+    padding: 0;
+    border: 0;
+  }
+  .navbar ul .coll-item {
+    position: relative;
+  }
+  .navbar ul .coll-item ul {
+    position: absolute;
+    width: 170px;
+    background-color: var(--main-color);
+    border: 0;
+  }
+  .navbar ul .coll-item ul li {
+    margin: 0;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    transition: all var(--transition-time);
+  }
+  .navbar ul .coll-item ul li:hover {
+    background-color: var(--first-color);
+  }
+  .navbar ul .coll-item ul li:hover a {
+    color: var(--main-color);
+  }
+  .navbar ul .coll-item i {
+    left: 110%;
+
+    padding: 0;
+    color: #000;
+  }
+  .navbar ul .coll-item ul li a {
+    padding: 0;
+    color: var(--second-color);
+  }
+  /* header */
+  header .container{
+    padding-top: 5rem;
+  }
+  header .container .content .inner h1 {
+    max-width: 700px;
+    line-height: 80px;
+    font-size: 3rem;
+  }
+  header .container .content .inner p {
+    font-size: 2rem;
+  }
+  .button2{
+    font-size: 1rem;
+  }
+  /* photos */
+  .sm-header {
+    font-size: 3rem;
+  }
+  .photos .container .content .item-1 .text{
+    right: 200px;
+  }
+  .item-1 .text button,
+  .item-6 .text button {
+    padding: 2rem 3rem;
+    font-size: 1.9rem;
+  }
+  .item-5 .text h3{
+    line-height: 55px;
+}
+.item-6 .text{
+  left: 150px;
+}
+.item-6 button{
+  margin-top: 2rem;
+}
+/* nav-tips*/
+.nav-tabs .nav-link{
+  font-size: 1.6rem;
+}
+/* join */
+.join .content{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: auto;
+}
+.join .content .join-us{
+  grid-row: 1/2;
+}
+.images{
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 180px;
+  grid-template-areas: 
+  "item-1 item-2 item-3"
+  "item-1 item-4 item-5"
+  ;
+}
+.join-us form{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.join-us form button{
+  width: 20%;
+}
+.join-us form input{
+  margin-bottom: 0;
+  width: 50%;
+}
+/* rules */
+.rules .content{
+  transform: translateY(40%);
+}
+/* footer */
+footer .links{
+  text-align: center;
+}
+}

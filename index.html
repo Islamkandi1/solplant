@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="islam kandil" />
+    <meta
+      name="description"
+      content="a plant website for selling the greatrest plants you wioll sea"
+    />
+    <title>solplant</title>
+    <!-- my links -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- up button -->
+    <a href="#home" class="up">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+    <!-- cart -->
+    <section class="cart text-center">
+      <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+      <p>item 3</p>
+    </section>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">
+          <img src="./images/logo (1).png" alt="website logo" />
+        </a>
+        <section class="left d-flex pt-2 align-items-center">
+          <section class="user-icons d-flex gap-1 h5">
+            <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="icon"><i class="fa-solid fa-user"></i></div>
+          </section>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fs-2"></i>
+          </button>
+        </section>
+        <section
+          class="offcanvas mobile-nav offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <section class="nav-slide">
+            <section class="offcanvas-header text-center">
+              <button
+                class="position-absolute border-0"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <a
+                href="./index.html"
+                class="offcanvas-title"
+                id="offcanvasNavbarLabel"
+              >
+                <img src="./images/logo2.png" class="w-100" alt="white logo" />
+              </a>
+            </section>
+            <section class=" ">
+              <ul class=" offcanvas-body  navbar-nav gap-2 pe-3">
+                <li
+                  class="coll-item"
+                  data-bs-toggle="collapse"
+                  href="#coll1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="coll1"
+                >
+                  <a href="#home" class="position-relative coll-down">
+                    home
+                    <i class="fa-solid fa-angle-down position-absolute"></i>
+                  </a>
+                  <ul class="collapse special-ul" id="coll1">
+                    <li class="card card-body">
+                      <a href="#home">home 1</a>
+                    </li>
+                    <li class="card card-body">
+                      <a href="#home ">home 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">contact us</a>
+                </li>
+                <li
+                  class="coll-item"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <a class="position-relative coll-down" href="#pages">
+                    pages
+                    <i class="fa-solid fa-angle-down position-absolute"></i>
+                  </a>
+                  <ul class="collapse special-ul" id="collapseExample">
+                    <li class="card card-body">
+                      <a href="#">page 1</a>
+                    </li>
+                    <li class="card card-body">
+                      <a href="#">page 2</a>
+                    </li>
+                    <li class="card card-body">
+                      <a href="#">page 3</a>
+                    </li>
+                    <li class="card card-body">
+                      <a href="#">page 4</a>
+                    </li>
+                    <li class="card card-body">
+                      <a href="#">page 5</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </section>
+      </div>
+    </nav>
+    <!-- header -->
+    <header id="home">
+      <section class="container">
+        <section class="content d-flex align-items-center">
+          <section class="inner">
+            <p>Summer Collection 2023</p>
+            <h1>Plants Gonna Make People Happy</h1>
+            <section class="buttons">
+              <button class="my-btn button1" type="button">shop now</button>
+              <button class="my-btn button2" type="button">explore now</button>
+            </section>
+          </section>
+        </section>
+      </section>
+    </header>
+    <!-- photos -->
+    <main class="photos" id="product">
+      <section class="container">
+        <section class="content">
+          <figure class="item-1 photo-custom position-relative">
+            <img
+              src="./images/best-selling.png"
+              class="w-100"
+              alt="best-selling"
+            />
+            <section class="text position-absolute">
+              <h3 class="sm-header">best selling</h3>
+              <button type="button" class="button1 position-relative item-btn">
+                shop now
+              </button>
+            </section>
+          </figure>
+          <figure class="item-2 photo-custom position-relative">
+            <img src="./images/1.png" class="w-100" alt="plant 1" />
+            <section class="text position-absolute">
+              <h3 class="sm-header">big saving</h3>
+            </section>
+          </figure>
+          <figure class="item-3 photo-custom position-relative">
+            <img src="./images/summer-pots.png" class="w-100" alt="plant 2" />
+            <section class="text position-absolute">
+              <h3 class="sm-header">summers pots</h3>
+            </section>
+          </figure>
+          <figure class="item-4 photo-custom position-relative">
+            <img
+              src="./images/green-plants.png"
+              class="w-100"
+              alt="green plant"
+            />
+            <section class="text position-absolute">
+              <h3 class="sm-header">quality product</h3>
+            </section>
+          </figure>
+          <figure class="item-5 photo-custom position-relative">
+            <img src="./images/3.png" class="w-100" alt="green plant" />
+            <section class="text position-absolute">
+              <h3 class="sm-header">green plants</h3>
+            </section>
+          </figure>
+          <figure class="item-6 photo-custom position-relative">
+            <img src="./images/popular.png" class="w-100" alt="green plant" />
+            <section class="text position-absolute">
+              <h3 class="sm-header">popular</h3>
+              <button type="button" class="button1 position-relative item-btn">
+                shop now
+              </button>
+            </section>
+          </figure>
+        </section>
+      </section>
+    </main>
+    <!-- navbar-tibs -->
+    <main class="navbar-tips" id="pages">
+      <section class="container">
+        <section class="content">
+          <section class="text text-center">
+            <h2 class="mb-4">New Arrival</h2>
+            <ul
+              class="nav nav-tabs justify-content-center flex-nowrap"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  all
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  top rated
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact-tab-pane"
+                  aria-selected="false"
+                >
+                  trending
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="disabled-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#disabled-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="disabled-tab-pane"
+                  aria-selected="false"
+                >
+                  best seller
+                </button>
+              </li>
+            </ul>
+          </section>
+          <div class="tab-content mb-5" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <section class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/1.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 top-0"
+                      >
+                        <img
+                          src="./images/3.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/summer-pots.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/4.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/3.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/5.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/4.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/6.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/6.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/8.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/5.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/7.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/7.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/1.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/8.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/9.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+              </section>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="profile-tab-pane"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <section class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/1.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 top-0"
+                      >
+                        <img
+                          src="./images/3.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/summer-pots.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/4.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/3.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/5.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+              </section>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="contact-tab-pane"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+              tabindex="0"
+            >
+              <section class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/1.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 top-0"
+                      >
+                        <img
+                          src="./images/3.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/summer-pots.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/4.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+              </section>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="disabled-tab-pane"
+              role="tabpanel"
+              aria-labelledby="disabled-tab"
+              tabindex="0"
+            >
+              <section class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/5.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/7.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/7.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/1.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="inner">
+                    <figure class="mb-3 position-relative">
+                      <img
+                        src="./images/8.png"
+                        class="w-100"
+                        alt="a kind of plant"
+                      />
+                      <section
+                        class="second-img hover-img position-absolute start-0 end-0 bottom-0 top-0"
+                      >
+                        <img
+                          src="./images/9.png"
+                          class="w-100"
+                          alt="a kind of plant"
+                        />
+                        <section class="buy position-absolute">
+                          <div
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="quick view"
+                          >
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div
+                            class="icon"
+                            class="icon"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="add to cart"
+                          >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </section>
+                      </section>
+                    </figure>
+                    <figcaption class="text-center">
+                      <section class="icons mb-3">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                      </section>
+                      <h3 class="mb-3">Aliquam Furniture</h3>
+                      <p class="fs-5">$99.00 - <del>$79.20</del></p>
+                    </figcaption>
+                  </section>
+                </section>
+              </section>
+            </div>
+          </div>
+          <section
+            role="button"
+            aria-label="see more button"
+            class="d-flex justify-content-center"
+          >
+            <button type="button" class="mt-4 btn-see mx-auto button1">
+              see all product
+            </button>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- join -->
+    <main class="join">
+      <section class="my-container">
+        <section class="content">
+          <section
+            class="join-us text-center d-flex justify-content-center align-items-center"
+          >
+            <section class="contain">
+              <section class="text mb-4">
+                <h2 class="mx-auto">Join to Our Newsletter For More Info</h2>
+                <p class="mx-auto">
+                  Contrary to popular belief, Lorem Ipsum is not simply
+                </p>
+              </section>
+              <form action="">
+                <input type="email" placeholder="enter your mail" name="mail" />
+                <button type="button" class="position-relative button1">
+                  subscribe
+                </button>
+              </form>
+            </section>
+          </section>
+          <section class="images">
+            <figure class="item-1 my-0 position-relative">
+              <img
+                src="./images/house-beautiful.png"
+                class="w-100"
+                alt="man and girl "
+              />
+              <section
+                class="layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </section>
+            </figure>
+            <figure class="item-2 my-0 position-relative">
+              <img
+                src="./images/second-image.png"
+                class="w-100"
+                alt="a mand stand on a ladle "
+              />
+              <section
+                class="layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </section>
+            </figure>
+            <figure class="item-3 my-0 position-relative">
+              <img
+                src="./images/third-image.png"
+                class="w-100"
+                alt="a kind of plant"
+              />
+              <section
+                class="layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </section>
+            </figure>
+            <figure class="item-4 my-0 position-relative">
+              <img
+                src="./images/fourth-image.png"
+                class="w-100"
+                alt="a lotof plant"
+              />
+              <section
+                class="layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </section>
+            </figure>
+            <figure class="item-5 my-0 position-relative">
+              <img
+                src="./images/fifth-image.png"
+                class="w-100"
+                alt="a lotof plant"
+              />
+              <section
+                class="layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </section>
+            </figure>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- read our artical -->
+    <main class="our-artical" id="blog">
+      <section class="container">
+        <section class="content">
+          <section class="text text-center">
+            <h2>Read Our Article</h2>
+          </section>
+          <section class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <section class="card col">
+              <section class="inner">
+                <section class="card-body mb-3 p-0">
+                  <p class="card-text">February 15,2023</p>
+                  <h3>House More Beautiful</h3>
+                  <p class="card-text">
+                    There or are many the variations of passages of Lorem Ipsum
+                    or available, but the majority have but the majority have
+                    suffered
+                  </p>
+                  <section class="admin d-flex align-items-center column-gap-3">
+                    <figure>
+                      <img
+                        src="./images/person-1 (1).png"
+                        class="rounded-circle w-100"
+                        alt="preson image"
+                      />
+                    </figure>
+                    <section class="img-des">
+                      <p><strong>Mr. Onsequat</strong></p>
+                      <p>Vesoz Admin</p>
+                    </section>
+                  </section>
+                </section>
+                <figure class="main-img position-relative overflow-hidden">
+                  <img
+                    src="./images/house-beautiful.png"
+                    class="w-100"
+                    alt="a man and a girl"
+                  />
+                </figure>
+              </section>
+            </section>
+            <section class="card col">
+              <section class="inner">
+                <section class="card-body mb-3 p-0">
+                  <p class="card-text">February 15,2023</p>
+                  <h3>Plants Help Make Your House</h3>
+                  <p class="card-text">
+                    There or are many the variations of passages of Lorem Ipsum
+                    or available, but the majority have but the majority have
+                    suffered
+                  </p>
+                  <section class="admin d-flex align-items-center column-gap-3">
+                    <figure>
+                      <img
+                        src="./images/person-2.png"
+                        class="rounded-circle w-100"
+                        alt="preson image"
+                      />
+                    </figure>
+                    <section class="img-des">
+                      <p><strong>Mr. Onsequat</strong></p>
+                      <p>Vesoz Admin</p>
+                    </section>
+                  </section>
+                </section>
+                <figure class="main-img position-relative overflow-hidden">
+                  <img
+                    src="./images/plants-help.png"
+                    class="w-100"
+                    alt="a woman stand"
+                  />
+                </figure>
+              </section>
+            </section>
+            <section class="card col">
+              <section class="inner">
+                <section class="card-body mb-3 p-0">
+                  <p class="card-text">February 15,2023</p>
+                  <h3>We Know That Buying Cars</h3>
+                  <p class="card-text">
+                    There or are many the variations of passages of Lorem Ipsum
+                    or available, but the majority have but the majority have
+                    suffered
+                  </p>
+                  <section class="admin d-flex align-items-center column-gap-3">
+                    <figure>
+                      <img
+                        src="./images/person-3.png"
+                        class="rounded-circle w-100"
+                        alt="preson image"
+                      />
+                    </figure>
+                    <section class="img-des">
+                      <p><strong>Mr. Onsequat</strong></p>
+                      <p>Vesoz Admin</p>
+                    </section>
+                  </section>
+                </section>
+                <figure class="main-img position-relative overflow-hidden">
+                  <img
+                    src="./images/buying-cars.png"
+                    class="w-100"
+                    alt="some of peaple draging"
+                  />
+                </figure>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- rules -->
+    <main class="rules" id="contact">
+      <section class="container">
+        <section
+          class="content d-flex justify-content-center align-items-center"
+        >
+          <section class="item d-flex align-items-center column-gap-3">
+            <img src="./images/truck.png" alt="truck" />
+            <section class="text">
+              <p class="head">Free Shipping Order</p>
+              <p class="my-0">On orders over $100</p>
+            </section>
+          </section>
+          <section class="item d-flex align-items-center column-gap-3">
+            <img src="./images/gift-card.png" alt="gift-card" />
+            <section class="text">
+              <p class="head">Special Gift Card</p>
+              <p class="my-0">The perfect gift idea</p>
+            </section>
+          </section>
+          <section class="item d-flex align-items-center column-gap-3">
+            <img src="./images/return-exchange.png" alt="return-exchange" />
+            <section class="text">
+              <p class="head">Return & Exchange</p>
+              <p class="my-0">Free return within 3 days</p>
+            </section>
+          </section>
+          <section class="item d-flex align-items-center column-gap-3">
+            <img src="./images/support.png" alt="support" />
+            <section class="text">
+              <p class="head">Free Shipping Order</p>
+              <p class="my-0">On orders over $100</p>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <section class="container">
+        <section class="content">
+          <section class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <section class="footer-logo col flex-grow-1">
+              <section class="inner">
+                <figure>
+                  <img src="./images/logo2.png" class="w-100" alt="logo" />
+                </figure>
+                <p class="lh-base mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  sed nulla eu dui suscipit ultricies. Mauris vestibulum
+                  volutpat nisl vel cursus. Cras finibus nec mauris tincidunt
+                  condimentum.
+                </p>
+                <section class="icons d-flex column-gap-3">
+                  <a
+                    href="https://www.facebook.com/eslam.kandil.129?locale=ar_AR"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a href="https://www.twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/islam-kandil-27a944332/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </section>
+              </section>
+            </section>
+            <section class="col links">
+              <section class="inner">
+                <h3 class="mb-4">Link</h3>
+                <ul class="p-0">
+                  <li class="mb-2">
+                    <a class="text-uppercase" href="#home">home</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="text-uppercase" href="#product">product</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="text-uppercase" href="#blog">blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="text-uppercase" href="#contact">contact us</a>
+                  </li>
+                  <li class="mb-2">
+                    <a class="text-uppercase" href="#pages">pages</a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section class="col get-in-touch">
+              <section class="inner">
+                <h3 class="mb-4">get in touch</h3>
+                <section class="item mb-3">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <span>01028091251</span>
+                </section>
+                <section class="item mb-3">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>eslamkandil097@gmail.com</span>
+                </section>
+                <section class="item mb-3">
+                  <i class="fa-solid fa-map-location-dot"></i>
+                  <span>alexandria</span>
+                </section>
+              </section>
+            </section>
+            <section class="col outher-links">
+              <section class="inner">
+                <h3 class="mb-4">outher links</h3>
+                <section class="item mb-3">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <span>01028091251</span>
+                </section>
+                <section class="item mb-3">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>eslamkandil097@gmail.com</span>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
