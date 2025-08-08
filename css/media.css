@@ -10,13 +10,10 @@
   .navbar-tips .text{ 
   margin-bottom: 1.5rem;
 }
-  .nav-tabs .nav-link{
-    font-size: 1rem;
-  }
 }
 @media screen and (min-width: 768px) {
   .navbar .container .logo img {
-    max-width: 170px;
+    max-width: 150px;
   }
   .sm-header {
     font-size: 2rem;
@@ -52,7 +49,7 @@
   }
   .join p{
     max-width: 400px;
-    line-height: 40px;
+    line-height: 25px;
   }
   .images{
     display: grid;
@@ -99,6 +96,7 @@
     margin: 0 1.25rem;
   }
   .navbar ul li a {
+    font-size: 1.2rem;
     color: #000;
     text-transform: capitalize;
     white-space: nowrap;
@@ -160,9 +158,6 @@
     font-size: 1rem;
   }
   /* photos */
-  .sm-header {
-    font-size: 3rem;
-  }
   .photos .container .content .item-1 .text{
     right: 200px;
   }
@@ -182,7 +177,7 @@
 }
 /* nav-tips*/
 .nav-tabs .nav-link{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 /* join */
 .join .content{
